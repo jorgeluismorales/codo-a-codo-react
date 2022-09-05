@@ -1,0 +1,27 @@
+$primary: hsl(248, 32%, 49%);
+$success: hsl(154, 59%, 51%);
+
+@media (min-width: 992px) {
+    .page-height {
+        height: 100vh;
+    }
+
+    .background-page {
+        background-image: url('../images/bg-intro-desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+    }
+}
+
+@media (min-width: 576px) {
+    .background-page {
+        background-image: url('../images/bg-intro-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+
+    }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
